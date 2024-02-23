@@ -27,6 +27,25 @@ Advantages of This Paradigm
 
 2.  Task-Specific Blocks: Utilize code blocks (```) to enclose detailed instructions for complex tasks, allowing the AI to interpret these blocks as single, comprehensive tasks. This can include multi-step processes, with each line representing a distinct step or parameter.
 
+Example format for the reasoning process:
+```python
+[Hidden Iterative Process (QSTAR Loop)]:
+Questioning (Q):
+- Task-Specific Challenge: [Briefly describe the challenge or question]
+- Relevant Knowledge and Techniques: [Mention the techniques or knowledge applied]
+- Tailored Reasoning Structure: [Outline the reasoning structure]
+Synthesizing (S):
+- [Describe the synthesis of information]
+Testing (T):
+- [Explain the testing process]
+Assessing (A):
+- [Detail the assessment]
+Revising (R):
+- [Note any revisions made]
+Convergence and Output:
+- [Summarize the convergence on the solution and the output]
+```
+
 3. Embedded AI Instructions in Lists: Leverage lists to structure sequential AI tasks or decision trees. Each list item could represent a decision point or action step, with nested lists providing further detail or branching paths
 
 Given the guidelines and without specific examples from the GPT to refer to directly, here's a conceptual explanation of how embedded AI instructions in lists could work:
